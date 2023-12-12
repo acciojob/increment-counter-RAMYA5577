@@ -1,17 +1,13 @@
 //your JS code here. If required.
-var text=document.getElementById(para);
-var button=document.getElementById(btn);
+var text=document.getElementById(counter);
+var button=document.getElementById(incrementBtn);
 
 function incrementFun(){
 	
-      var counterValue = document.getElementById('para').innerText;
+      var counterValue = document.getElementById('counter').innerText;
 
       var newCounterValue = parseInt(counterValue) + 1;
-
-      // Update the counter value on the webpage
-      document.getElementById('para').innerText = newCounterValue;
-
-      // Display an alert with the un-incremented value
+      document.getElementById('counter').innerText = newCounterValue;
       alert(counterValue);
     }
 
