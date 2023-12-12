@@ -8,6 +8,6 @@ function incrementFun(){
 
       var newCounterValue = parseInt(counterValue) + 1;
       document.getElementById('counter').innerText = newCounterValue;
-      alert(counterValue);
+      alert(newCounterValue);
     }
 
